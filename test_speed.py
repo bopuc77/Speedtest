@@ -15,3 +15,7 @@ def test_speed():
 
 if __name__=="__main__":
     test_speed()
+#download_speed = speedtest.Speedtest().download()
+# print('Dowload speed: ',download_speed / (2 ** 20))
+# upload_speed = speedtest.Speedtest().upload()
+# print('Upload speed: ',upload_speed / (2 ** 20))
